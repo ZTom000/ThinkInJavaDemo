@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
-<listEntry value="/ThinkInJavaDemo/src/com/ztom/chap1/HelloWorld.java"/>
+<listEntry value="/ThinkInJavaDemo/src/com/ztom/chap2/HelloWorld.java"/>
 </listAttribute>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
 <listEntry value="1"/>
 </listAttribute>
 <booleanAttribute key="org.eclipse.jdt.launching.ATTR_EXCLUDE_TEST_CODE" value="true"/>
-<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.ztom.chap1.HelloWorld"/>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.ztom.chap2.HelloWorld"/>
 <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="ThinkInJavaDemo"/>
 </launchConfiguration>

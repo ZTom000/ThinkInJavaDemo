@@ -31,7 +31,14 @@ public class Literals {
 		System.out.println("d1: " + d1);
 		double d2 = 1D;
 		System.out.println("d2: " + d2);
-
+		
+		//exc8
+		long l1 = 0x2f;												//十六进制0x
+		System.out.println("l1: " + Long.toBinaryString(l1));
+		long l2 = 0x2F;
+		System.out.println("l2: " + Long.toBinaryString(l2));
+		long l3 = 0177;												//八进制0 + 1~7
+		System.out.println("l3: " + Long.toBinaryString(l3));
 	}
 
 }

@@ -8,7 +8,6 @@ public class Casting {
 		lng = i;
 		long lng2 = (long)200;
 		i = (int) lng2;
-
 	}
 
 }

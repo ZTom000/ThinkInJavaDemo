@@ -1,7 +1,7 @@
 package com.ztom.chap4;
 
 public class ForEachInt {
-	static int[] range(int j) {
+	public static int[] range(int j) {
 		int[] a = new int[j];
 		for (int k = 0; k < j; k++) {
 			a[k] = k;
@@ -9,7 +9,7 @@ public class ForEachInt {
 		return a;
 	}
 
-	static int[] range(int i, int j) {
+	public static int[] range(int i, int j) {
 		int[] a = new int[j - i];
 		for (int k = 0; k < j - i; k++) {
 			a[k] = k + i;
@@ -17,7 +17,7 @@ public class ForEachInt {
 		return a;
 	}
 
-	static int[] range(int i, int j, int l) {
+	public static int[] range(int i, int j, int l) {
 		int temp = 0;
 		int tempI = i;
 		while (tempI < j) {

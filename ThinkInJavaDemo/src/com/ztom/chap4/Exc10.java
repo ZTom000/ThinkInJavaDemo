@@ -16,7 +16,7 @@ public class Exc10 {
 					c = temp % 10;
 					temp /= 10;
 					d = temp % 10;
-					if (((a * 10 + b) == i && (c * 10 + d) == j) || ((a * 10 + b) == i && (d * 10 + c) == j)
+					if (((a * 10 + b) == i && (c * 10 + d) == j) || ((a * 10 + b) == i && (d * 10 + c) == j)			//判定逻辑
 							|| ((b * 10 + a) == i && (d * 10 + c) == j) || ((b * 10 + a) == i && (c * 10 + d) == j)) {
 						System.out.println(i + " * " + j + " = " + result);
 					}
